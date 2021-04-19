@@ -1,7 +1,6 @@
-package Model;
+package guru.spring.framework.spring5webapp.Model;
 
 import javax.persistence.*;
-import java.util.Objects;
 import java.util.Set;
 
 
