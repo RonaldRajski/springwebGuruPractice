@@ -1,4 +1,4 @@
-package guru.spring.framework.spring5webapp.Model;
+package guru.spring.framework.spring5webapp.domain;
 
 import javax.persistence.*;
 import java.util.HashSet;
@@ -15,6 +15,7 @@ public class Author {
 
     private String firstName;
     private String lastName;
+
 
     @ManyToMany(mappedBy = "authors")
     private Set<Book> books = new HashSet<>();

@@ -1,4 +1,4 @@
-package guru.spring.framework.spring5webapp.Model;
+package guru.spring.framework.spring5webapp.domain;
 
 import javax.persistence.*;
 import java.util.HashSet;
@@ -33,7 +33,6 @@ public class Book {
     public Book(String title, String isbn) {
         this.title = title;
         this.isbn = isbn;
-
     }
 
     public Long getId() {
